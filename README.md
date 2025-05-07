@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gjimnazi THEMISTOKLI GERMENJI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-in-out; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="fixed w-full z-50 bg-white shadow-md">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+      <h1 class="text-xl font-bold text-blue-700">Shkolla Evropiane Korça</h1>
+      <nav class="space-x-4 text-sm text-gray-700">
+        <a href="#about" class="hover:text-blue-600">Rreth Nesh</a>
+        <a href="#staff" class="hover:text-blue-600">Stafi</a>
+        <a href="#programs" class="hover:text-blue-600">Programet</a>
+        <a href="#gallery" class="hover:text-blue-600">Galeria</a>
+        <a href="#contact" class="hover:text-blue-600">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-100 to-white pt-24 px-6">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold text-blue-800">Mirësevini në Shkollën E Mesme Publike Themistokli Germenji</h1>
+      <p class="mt-4 text-xl text-gray-600">Edukimi është çelësi i së ardhmes – ne jemi çelësi yt.</p>
+      <a href="#about" class="mt-8 inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-lg transition-all">Mëso më shumë</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto text-center fade-in">
+      <h2 class="text-4xl font-bold text-blue-700 mb-6">Rreth Nesh</h2>
+      <p class="text-gray-700 text-lg leading-relaxed">Shkolla e mesme publike Themistokli Germenji është një institucion arsimor modern, që ofron edukim cilësor dhe përgatit nxënësit për të ardhmen me vlera, dije dhe kulturë.</p>
+    </div>
+  </section>
+
+  <!-- Staff -->
+  <section id="staff" class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-700 mb-12">Stafi Ynë</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="fade-in">
+          <img src="https://via.placeholder.com/150" class="mx-auto rounded-full mb-4" />
+          <h3 class="text-xl font-semibold">Drejtoresha Entela Kuruni</h3>
+          <p class="text-gray-600">Lider i arsimit inovativ.</p>
+        </div>
+        <div class="fade-in">
+          <img src="https://via.placeholder.com/150" class="mx-auto rounded-full mb-4" />
+          <h3 class="text-xl font-semibold">Prof. Anxhela Pashko</h3>
+          <p class="text-gray-600">Anglisht.</p>
+        </div>
+        <div class="fade-in">
+          <img src="https://via.placeholder.com/150" class="mx-auto rounded-full mb-4" />
+          <h3 class="text-xl font-semibold">Prof. Eljona Jatagani.</h3>
+          <p class="text-gray-600">Gjuhë & Letërsi Shqipe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-700 mb-12">Programet</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="fade-in">
+          <h3 class="text-2xl font-semibold mb-2">📚 Gjimnaz i Përgjithshëm</h3>
+          <p class="text-gray-700">Program akademik me theks në shkencat humane, shkencat natyrore dhe teknologjinë.</p>
+        </div>
+        <div class="fade-in">
+          <h3 class="text-2xl font-semibold mb-2">🌍 Seksion Bilingual</h3>
+          <p class="text-gray-700">Mësim në shqip dhe italisht me fokus në bashkëpunimin ndërkombëtar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-700 mb-12">Galeria</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <img src="https://via.placeholder.com/600x400" class="rounded-lg shadow-lg fade-in" alt="Foto shkollore" />
+        <iframe class="rounded-lg shadow-lg fade-in w-full h-64" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video prezantuese" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest News -->
+  <section class="py-20 px-6 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center fade-in">
+      <h2 class="text-4xl font-bold text-blue-700 mb-8">Lajmet e Fundit</h2>
+      <ul class="text-left text-lg text-gray-700 space-y-4">
+        <li>📅 <strong>10 Prill 2025:</strong> Fillimi i provimeve.</li>
+        <li>🎭 <strong>25 Prill 2025:</strong> Festivali RinShow.</li>
+        <li>📚 <strong>5 Maj 2025:</strong> Java e Projekteve.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-gray-100">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-blue-700 mb-8">Na Kontaktoni</h2>
+      <p class="text-gray-600 mb-6">Jeni të interesuar për regjistrim apo bashkëpunim? Plotësoni formularin më poshtë.</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Emri juaj" class="w-full p-3 rounded bg-white border border-gray-300" />
+        <input type="email" placeholder="Email" class="w-full p-3 rounded bg-white border border-gray-300" />
+        <textarea placeholder="Mesazhi juaj..." class="w-full p-3 rounded bg-white border border-gray-300" rows="4"></textarea>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full text-white">Dërgo</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-8 text-sm text-gray-500">
+    © 2025 Shkolla Evropiane Korça – Edukojmë brezat për të nesërmen.
+    <div class="mt-2 space-x-4">
+      <a href="https://www.facebook.com/search/top?q=gjimnazi%20%22themistokli%20g%C3%ABrmenji%22%20faqja%20zyrtare" target="_blank" class="hover:text-blue-600">Facebook</a>
+      <a href="#" class="hover:text-blue-600">Instagram</a>
+      <a href="#" class="hover:text-blue-600">YouTube</a>
+    </div>
+  </footer>
+
+  <!-- Animation Script -->
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+</body>
+</html>
